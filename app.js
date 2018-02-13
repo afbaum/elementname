@@ -9,9 +9,9 @@ var start = 0;
 var end = 2;
 
 for (i = 0; i < userName.length; i++){
-  var nameelementarray = [];
-  nameelementarray.push(userName.slice(start, end));
-  console.log(nameelementarray);
+  var nameElementArray = [];
+  nameElementArray.push(userName.slice(start, end));
+  console.log(nameElementArray);
   var start =+ 1;
   var end =+ 1;
 }
