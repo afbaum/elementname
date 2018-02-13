@@ -5,10 +5,15 @@ var element = [{name:"Hydrogen" , symbol:"H" , atiomicNumber:"1", weight:"1.008"
               {name:"Boron" , symbol:"B" , atiomicNumber:"5", weight:"10.81", state:"solid", metal:"metalloids"}
             ];
 var userName = "HeBeH"
-var namearray = [];
+var start = 0;
+var end = 2;
 
-for (i = 0; i < userName.length; i+=2){
-  console.log(userName[i]);
+for (i = 0; i < userName.length; i++){
+  var nameelementarray = [];
+  nameelementarray.push(userName.slice(start, end));
+  console.log(nameelementarray);
+  var start =+ 1;
+  var end =+ 1;
 }
 
 for (i = 0; i < element.length; i+=1){
